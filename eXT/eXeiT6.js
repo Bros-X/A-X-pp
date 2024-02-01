@@ -18,7 +18,7 @@ sCW.style.display = "grid";
 }
 
 document.getElementById("CX").addEventListener("click", function(){
-alert("")
+console.log("cLicked");
 sCW.style.display = "none";
 });
 
