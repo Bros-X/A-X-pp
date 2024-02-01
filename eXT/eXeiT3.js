@@ -8,6 +8,7 @@ display:grid;place-items:center;display:none;
 <div class="gone" id="sHwC">Hiibsn 
 <button onclick="hDwZ()"></button>
 </div>
+<h1>Here It Is</h1>
 <script>
 let sCW = document.getElementById("sHwC");
 function sHwZ(){
