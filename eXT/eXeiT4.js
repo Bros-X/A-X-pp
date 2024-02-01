@@ -6,7 +6,7 @@ display:grid;place-items:center;
 
 </style>
 <div class="gone" id="sHwC">Hiibsn 
-<button onclick="hDwZ()">Click Me</button>
+<button onclick="alert("clicked");hDwZ()">Click Me</button>
 </div>
 <h1>Here It Is</h1>
 <script>
