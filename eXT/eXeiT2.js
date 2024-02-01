@@ -8,3 +8,4 @@ display:grid;place-items:center;
 <div class="gone">Hii</div>
 
 `;
+Dta = DatAa;
