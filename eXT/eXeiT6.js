@@ -6,19 +6,19 @@ display:grid;place-items:center;
 
 </style>
 <div class="gone" id="sHwC">Hiibsn 
-<button onclick="alert('clicked')" id="CX">Click Me</button>
+<button id="CX">Click Me</button>
 </div>
 <h1>Here It Is</h1>
 
 
 <script>
-let sCW = document.getElementById("sHwC");
+const sCW = document.getElementById("sHwC");
 function sHwZ(){
 sCW.style.display = "grid";
 }
 
 document.getElementById("CX").addEventListener("click", function(){
-
+alert("")
 sCW.style.display = "none";
 });
 
