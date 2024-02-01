@@ -5,22 +5,24 @@ display:grid;place-items:center;
 }
 
 </style>
+<div class="gone" id="sHwC">Hiibsn 
+<button onclick="alert('clicked')" id="CX">Click Me</button>
+</div>
+<h1>Here It Is</h1>
+
+
 <script>
 let sCW = document.getElementById("sHwC");
 function sHwZ(){
 sCW.style.display = "grid";
 }
 
-function hDwZ(){
+document.getElementById("CX").addEventListener("click", function(){
+
 sCW.style.display = "none";
-}
+});
+
 
 </script>
-<div class="gone" id="sHwC">Hiibsn 
-<button onclick="alert('clicked');hDwZ()">Click Me</button>
-</div>
-<h1>Here It Is</h1>
-
-
 `;
 Dta = DatAa;
